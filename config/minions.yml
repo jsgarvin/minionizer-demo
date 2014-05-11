@@ -1,4 +1,4 @@
-demo.myserver.int:
+demo.minionizer.int:
   ssh:
     username: 'root'
   roles: ['demo']
