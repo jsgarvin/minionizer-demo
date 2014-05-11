@@ -1,0 +1,5 @@
+demo.myserver.int:
+  ssh:
+    username: 'root'
+  roles: ['demo']
+
