@@ -1,3 +1,11 @@
+PATH
+  remote: /home/jsgarvin/workspace/minionizer
+  specs:
+    minionizer (0.2.0)
+      activesupport (~> 4.1)
+      net-scp (~> 1.2)
+      net-ssh (~> 2.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -9,11 +17,10 @@ GEM
       tzinfo (~> 1.1)
     i18n (0.6.9)
     json (1.8.1)
-    minionizer (0.1.0)
-      activesupport (~> 4.1)
-      net-ssh (~> 2.9)
-    minitest (5.3.3)
-    net-ssh (2.9.0)
+    minitest (5.3.4)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.9.1)
     thread_safe (0.3.3)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
@@ -22,4 +29,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  minionizer (~> 0.1)
+  minionizer!

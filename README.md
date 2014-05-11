@@ -27,7 +27,9 @@ run this demo against a Digital Ocean droplet by following these steps.
        real servers)
 3. After the droplet is created, update your /etc/hosts file to add the ip address
    with the hostname 'demo.minionizer.int'             
-4. Clone this repo locally and, from the root of the repo,  run...
+4. Clone this repo to your local machine.
+5. Copy your public ssh key into the `data/public_keys` folder.
+6. From the root of the repo,  run...
     1. `bundle install`
     2. `minionize demo`
 
